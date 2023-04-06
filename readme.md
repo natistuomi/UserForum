@@ -8,6 +8,7 @@ Nästa gång: Se ovanstående + Hur interagerar controllern och viewn? Hur visas
 
 **6 april**
 
-Gjort:
+Gjort: Löst connect problemet. Skapat en del som använder bcrypt för att hasha och jämföra ett lösenord med ett från databasen. 
+Gett up på viewn. Är det för mycket begärt med ett projekt utan GUI?
 
-Nästa gång:
+Nästa gång: ???

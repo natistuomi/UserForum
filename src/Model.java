@@ -25,7 +25,7 @@ public class Model {
             ResultSet result = stmt.executeQuery(SQLQuery);
             ResultSetMetaData metadata = result.getMetaData();
             while (result.next()) {
-                output += "\n" + result.getString("title") + " by " + result.getString("authorID") + "\n" + result.getString("content") + "\n";
+                output += "\n" + result.getString("title") + " by author " + result.getString("authorID") + "\n" + result.getString("content") + "\n";
             }
             stmt.close();
         } catch (SQLException e) {
