@@ -9,10 +9,12 @@ public class Controller {
         this.model = model;
         this.view = view;
         model.connect(a);
-        String posts = model.getPosts();
+        String posts = model.getAllPosts();
         //Send posts to textarea in view?
         model.close();
     }
+
+    //model.login(username, password);
 
     public static void main(String[] args) throws SQLException {
         Model m = new Model();
